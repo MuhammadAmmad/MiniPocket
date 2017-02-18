@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_unit__exchange"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:scrollbarThumbVertical="@android:color/transparent"
+    tools:context="com.example.roshan.minipocket.Unit_Exchange">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Enter Height"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="18dp"
+            android:orientation="horizontal">
+            <EditText
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:hint="Usd Dollar"
+                android:inputType="number"
+                android:id="@+id/edit_nepali"
+                android:textAlignment="center"
+                android:background="@drawable/textinputdrawer"
+                android:layout_weight="0.5"
+                android:layout_marginRight="15dp"/>
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:hint="Rs."
+                android:inputType="number"
+                android:textAlignment="center"
+                android:focusable="false"
+                android:background="@drawable/textinputdrawer"
+                android:layout_weight="1"
+                android:id="@+id/edit_usd"/>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Calculate"
+            android:layout_gravity="center"
+            android:id="@+id/btn_calculate_unit"
+            android:background="#d3d3d3"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Result"
+            android:layout_marginTop="20dp"
+            android:id="@+id/txt_result"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:id="@+id/txt_decision"/>
+    </LinearLayout>
+
+
+</ScrollView>

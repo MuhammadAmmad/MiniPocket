@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.roshan.minipocket">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BMI_Calculator" />
+        <activity android:name=".Zodiac.Zodiac" />
+        <activity android:name=".Zodiac.Aries" />
+        <activity android:name=".Zodiac.Taurus" />
+        <activity android:name=".Zodiac.Gemini" />
+        <activity android:name=".Zodiac.Cancer" />
+        <activity android:name=".Zodiac.Leo" />
+        <activity android:name=".Zodiac.Virgo" />
+        <activity android:name=".Zodiac.Libra" />
+        <activity android:name=".Zodiac.Scorpio" />
+        <activity android:name=".Zodiac.Sagittarius" />
+        <activity android:name=".Zodiac.Capricon" />
+        <activity android:name=".Zodiac.Aquarius" />
+        <activity android:name=".Zodiac.Pieces" />
+        <activity android:name=".Age_Calculator" />
+        <activity android:name=".Unit_Exchange"></activity>
+    </application>
+
+</manifest>

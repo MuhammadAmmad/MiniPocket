@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="agecalculator" type="id">Age Calculator</item>
+    <item name="bmi" type="id">BMI Calculator</item>
+    <item name="horoscope" type="id">Horoscope</item>
+    <item name="converter" type="id">Converter</item>
+    <item name="aries" type="id">Aries</item>
+    <item name="taurus" type="id">Taurus</item>
+    <item name="gemini" type="id">Gemini</item>
+    <item name="cancer" type="id">Cancer</item>
+    <item name="leo" type="id">Leo</item>
+    <item name="virgo" type="id">Virgo</item>
+    <item name="libra" type="id">Libra</item>
+    <item name="scorpio" type="id">Scorpio</item>
+    <item name="sagitarrius" type="id">Sagittarius</item>
+    <item name="capricon" type="id">Capricon</item>
+    <item name="aquarius" type="id">Aquarius</item>
+    <item name="pieces" type="id">Pieces</item>
+    <item name="ariesdate" type="id">March 21 - April 19</item>
+    <item name="taurusdate" type="id">April 20 - May 20</item>
+    <item name="geminidate" type="id">May 21 - June 20</item>
+    <item name="cancerdate" type="id">June 21 - July 22</item>
+    <item name="leodate" type="id">July 23 - August 22</item>
+    <item name="virgodate" type="id">August 23 - September 22</item>
+    <item name="libradate" type="id">September 23 - October 22</item>
+    <item name="scorpiodate" type="id">October 23 - November 21</item>
+    <item name="sagitariusdate" type="id">November 22 - December 21</item>
+    <item name="capricondate" type="id">December 22 - January 19</item>
+    <item name="aquariusdate" type="id">January 20 - February 18</item>
+    <item name="piescesdate" type="id">February 19 - March 20</item>
+
+</resources>

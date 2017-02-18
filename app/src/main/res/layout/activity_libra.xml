@@ -1,0 +1,17 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="7dp"
+    android:scrollbarThumbVertical="@android:color/transparent">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/detail_list_view"
+        android:overScrollMode="never"
+        android:scrollbarThumbVertical="@android:color/transparent"
+         />
+
+</ScrollView>
